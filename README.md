@@ -4,6 +4,8 @@ This project is a FastAPI-based authentication system that includes user registr
 
 ---
 
+!(FASTAPI AUTHENTICATION SYSTEM.png)
+
 ## Features
 
 1. **User Registration**:
