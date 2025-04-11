@@ -4,10 +4,11 @@ This project is a FastAPI-based authentication system that includes user registr
 
 ---
 
-!(FASTAPI AUTHENTICATION SYSTEM.png)
+<p align="center">
+  <img src="FASTAPI_AUTHENTICATION_SYSTEM.png" alt="FastAPI Authentication System">
+</p>
 
 ## Features
-
 1. **User Registration**:
    - Users can register with a username, password, and email.
    - Sends an OTP to the user's email for verification.
@@ -76,7 +77,7 @@ authentication_system/
    - Create a `.env` file in the `authentication_system` directory.
    - Add the following variables:
      ```
-     SECRET=<your_jwt_secret_key>
+     SECRET=<your_mailtrap_secret_key>
      ALGORITHM=HS256
      s_l=<your_custom_value>
      ```
